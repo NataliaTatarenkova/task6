@@ -4,10 +4,10 @@ import java.math.BigDecimal;
 
 public non-sealed class Triangle implements Figure{
 
-    private BigDecimal base;
-    private BigDecimal height;
+    BigDecimal base;
+    BigDecimal height;
 
     public BigDecimal getArea() {
-        return null;
+        return new BigDecimal(0.5).multiply(base).multiply(height);
     }
 }

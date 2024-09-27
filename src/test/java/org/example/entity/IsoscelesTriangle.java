@@ -1,4 +1,6 @@
 package org.example.entity;
 
-public class IsoscelesTriangle extends Triangle{
+import java.math.BigDecimal;
+
+public class IsoscelesTriangle extends Triangle {
 }
